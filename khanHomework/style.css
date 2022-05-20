@@ -1,0 +1,82 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin:  0px;
+}
+nav{
+	height: 50px;
+	border-bottom: 1px solid lightgray;
+}
+ul li a, ul li{
+	text-decoration: none;
+	list-style: none;
+	float: left;
+}
+
+.half{
+	width: 10%;
+	padding-left: 150px;
+}
+
+.thirds{
+	width: 5%;
+}
+
+.title {
+	width:  60%;
+	padding-left: 450px;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.title a{
+	color: black;
+}
+
+nav ul li a{
+	width:  100%;
+	color: blue;
+	font-weight: bold;
+}
+
+
+section div{
+	width: 30%;
+	float: left;
+	height:  500px;
+	margin: 0px 50px;
+	padding:  0px;
+}
+
+section div img{
+	float:  right;
+}
+
+section {
+	width: 100%;
+	height: 1200px;
+	margin: 150px 200px;
+}
+
+section ul li, section ul li a{
+	background-color: blue;
+	color: white;
+	padding: 5px 7px;
+	width: 20%;
+	border-radius: 5px;
+}
+
+section ul li{
+	margin: 15px 5px;
+}
+
+section ul{
+	width: 500px;
+	padding: 0px;
+}
+
+
+div h1{
+	font-size: 40px;
+}

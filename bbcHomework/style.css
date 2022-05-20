@@ -1,0 +1,118 @@
+body{
+	margin: 0;
+}
+
+header{
+	background: black;
+	color: white;
+	height: 50px;
+
+}
+
+nav *{
+	list-style: none;
+	float: left;
+	width: 10%;
+	color: white;
+	text-decoration: none;
+	display: block;
+
+}
+
+.sign-in a, .sign-in{
+	padding-right:  100px;
+}
+
+nav ul{
+	width: 65%;
+	margin: 0px;
+
+}
+
+nav ul a{
+	width:  70%;
+	border-right: 1px solid gray;
+	height:  40px;
+	padding-top: 10px;
+
+}
+
+nav form{
+	float: right;
+	padding-top:  10px;
+	width:  200px;
+}
+
+nav form input{
+	width: 75%;
+}
+
+nav img{
+	border-right: 1px solid gray;
+	padding-right:  30px;
+	padding-top: 1px;
+	height: 48px;
+}
+
+.date{
+	color:  lightgray;
+	text-align: right;
+
+}
+
+
+.second div{
+	width:  33.33%;
+	float:  left;
+}
+
+.red-left-border, .blue-left-border{
+	border-left: 2px solid red;
+	padding-left: 10px;
+	height: 5px;
+	color: lightgray;
+}
+
+.blue-left-border{
+	border-left: 2px solid aquamarine;
+}
+
+body section{
+	margin:  15px;
+}
+
+.first > div{
+	width: 50%;
+	float: left;
+	height:  550px;
+}
+
+.square{
+	width: 25%;
+	height:  275px;
+	float:  left;
+}
+
+.first > h2, .first h2 + h2{
+	width: 50%;
+	float: left;
+}
+
+.first > h2, .second > h2 {
+	color: gray;
+}
+
+section h3, section span, section h4, section p, .israel h2{
+
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+
+.second > h2{
+	height: 50px;
+}
+
+.first, .second{
+	height:  600px;
+}

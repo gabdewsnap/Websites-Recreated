@@ -1,0 +1,204 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #6a7b95;
+	margin: 0px;
+}
+
+nav{
+	height: 60px;
+}
+
+nav ul li, nav ul li a, .oppurtunity a, footer ul li {
+	list-style: none;
+	float: left;
+	text-decoration: none;
+	color: white;
+}
+
+nav button{
+	border-radius: 5px;
+	background-color: white;
+	color:  #6a7b95;
+	border: #6a7b95;
+	height: 35px;
+	font-weight: bold;
+	width: 90px;
+}
+
+nav ul li:first-child, nav ul li:nth-child(4){
+	width: 10%;
+}
+
+nav ul li:nth-child(2){
+	width: 40%;
+}
+
+nav ul li:nth-child(3){
+	width: 40%;
+}
+
+
+.oppurtunity{
+	color: white;
+	text-align: center;
+	padding: 0% 10%;
+	height: 500px;
+}
+
+.oppurtunity h1{
+	font-size: 70px;
+	margin-bottom: 0px;
+}
+
+.oppurtunity p{
+	font-size: 25px;
+	margin:  5% 5%;
+}
+
+.oppurtunity a{
+	font-size: 25px;
+	float:  none;
+}
+
+.why, .volunteer{
+	background-color: white;
+	padding: 0% 25%;
+	height: 600px;
+	text-align: center;
+}
+
+.why h3, .volunteer h3{
+	font-size: 40px;
+	padding-top: 20%;
+	margin: 0px;
+}
+
+.why p, .volunteer p{
+	font-size: 25px;
+}
+
+.cards{
+	background-color: #d4d7d9;
+	padding: 8% 10%;
+	height: 800px;
+}
+
+.cards div{
+	text-align: center;
+	width:  40%;
+	float:  left;
+	margin: 0% 5%;
+}
+
+.cards button, .volunteer button{
+	background-color: transparent;
+	height: 60px;
+	width:  200px;
+	font-weight: bold;
+	border: 1px solid black;
+	margin-top: 20px;
+}
+
+.cards	img{
+	box-shadow: 1px 1px 5px black;
+	margin-bottom: 20px;
+}
+
+.cards h4{
+	font-size: 25px;
+
+}
+
+.volunteer{
+	height: 550px;
+}
+
+footer{
+	background-color: #151d30;
+	margin: 0px;
+	padding: 1% 2%;
+	height: 400px;
+	color: white;
+}
+
+footer ul li a img, footer ul li a{
+	width: 28px;
+	height:  28px;
+}
+
+.top{
+	border-bottom: 1px solid white;
+	width: 100%;
+	height: 300px;
+	padding: 2% 0%;
+}
+
+.top section{
+	float: left;
+}
+.left {
+	width: 85%;
+}
+
+.right{
+	width: 15%;
+	height: 100%;
+}
+
+address{
+	color:  lightgray;
+	margin-top: 15px;
+}
+
+.left span{
+	color: #5d6985;
+	font-size: 20px;
+	font-weight: bold;
+	height: 20px;
+}
+
+.left div{
+	height: 60px;
+	margin: 0px;
+}
+
+.bottom{
+	margin-top: 25px;
+}
+
+.left ul li{
+	width: 8%;
+}
+
+.bottom div{
+	float: left;
+}
+
+.bottom div:nth-child(2){
+	float: right;
+}
+
+.left ul{
+	margin:  0px;
+	padding:  0px;
+}
+
+.logos ul li{
+	width: 5%;
+}
+
+.logos ul li:nth-child(3) a img{
+	width: 40px;
+	height:  40px;
+}
+
+.logos{
+	height: 45px;
+}
+
+.right span{
+	font-weight: bold;
+}

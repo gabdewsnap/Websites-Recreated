@@ -1,0 +1,249 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+nav{
+	height: 55px;
+	width: 100%;
+	padding-left: 40%;
+}
+
+nav ul li, footer ul li{
+	float:left;
+	list-style: none;
+	text-decoration: none;
+	width: 12%;
+	padding-top: 15px;
+}
+
+nav ul li a{
+	color: black;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+nav ul li a i{
+	font-size: 20px;
+	padding-top: 5px;
+}
+
+.welcome{
+	height: 600px;
+	padding-left: 5%;
+	padding-top: 75px;
+}
+.welcome h1{
+	font-size: 75px;
+	width: 40%;
+	padding-bottom: 40px;
+}
+
+form input{
+	width: 350px;
+	height: 45px;
+	border-radius: 5px;
+	border: 2px solid lightgray;
+	margin-bottom: 50px;
+	padding-left: 1%;
+}
+
+.welcome button, .aboutUs button{
+	color: white;
+	background-color: #e38424;
+	height: 45px;
+	border-radius: 5px;
+	border: 2px solid #e38424;
+	padding: 0px 15px;
+}
+
+.welcome div ul{
+	height: 40px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.welcome i, span, .hours i, footer a{
+	color: #e38424;
+}
+
+.welcome ul li p{
+	float: right;
+	padding-right: 55%;
+	font-weight: bold;
+}
+
+.welcome .fa-facebook-f{
+	padding: 0px;
+}
+
+.welcome li, .orderOnline ul li{
+	float:left;
+	list-style: none;
+	width: 8%;
+}
+
+.aboutUs{
+	height: 800px;
+	padding:  0px 20% 0px 30%;
+}
+
+h2{
+	font-size: 60px;
+	padding: 5px 0px 30px 0px;
+}
+
+.aboutUs p{
+	font-size: 25px;
+	line-height: 40px;
+	padding-bottom:  45px;
+}
+
+.orderOnline{
+	height: 1200px;
+	text-align: center;
+
+}
+
+.orderOnline div ul{
+	height: 70px;
+	padding: 0px 30%;
+}
+
+.orderOnline div ul li{
+	width: 20%;
+}
+
+.orderOnline img{
+	width: 20%;
+	padding: 1% 1%;
+}
+
+.images{
+	padding: 0px 3%;
+}
+
+.hours{
+	text-align: center;
+	height: 950px;
+	padding: 0px 20%;
+}
+
+.float{
+	float:  left;
+	width: 50%;
+	text-align: left;
+	padding: 0px 15%;
+}
+
+.hours img{
+	padding: 3% 0px;
+	width: 800px;
+}
+
+.bold{
+	font-weight: bold;
+	font-size: 22px;
+	padding: 10px 0px;
+}
+
+.hours i, footer i{
+	padding: 10px;
+	border: 1px solid #e38424;
+	border-radius: 20px;
+}
+
+.call,.class{
+	font-size: 16px;
+	padding: 15px 0px;
+}
+
+.phone{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.reviews{
+	height: 600px;
+	text-align: center;
+	padding: 0px 25%;
+}
+
+.reviews h4{
+	font-size: 26px;
+}
+
+.caption{
+	font-size: 18px;
+	color: lightgray;
+	padding-bottom:10px;
+}
+
+.italic{
+	font-style: italic;
+	line-height: 35px;
+	padding: 10px 0px;
+}
+
+.profile{
+	width: 15%;
+	padding-top: 3%;
+}
+
+footer{
+	height: 350px;
+	padding: 0px 5%;
+}
+
+.top{
+	height: 300px;
+}
+
+.top div{
+	float: left;
+	padding: 0px 20px;
+	width: 25%;	
+}
+
+.bottom div{
+	float: left;
+}
+
+footer h3, footer img{
+	padding-bottom: 35px;
+	font-size: 28px;
+}
+
+.top p{
+	padding: 15px 0px;
+}
+footer img{
+	padding-bottom: 15px;
+}
+
+.fa-facebook-f{
+	border-radius: 25px;
+	padding: 10px 15px;
+}
+
+footer ul li{
+	padding: 0px;
+	width: 25%;
+}
+
+.bottom p{
+	padding: 10px;
+}
+
+.footerIcons{
+	width: 20%;
+}
+
+.copyright{
+	width: 80%;
+}
+
+footer p{
+	font-size: 18px;
+}
